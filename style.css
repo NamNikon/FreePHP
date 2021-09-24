@@ -2,4 +2,8 @@
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
+    background-color: #93B874;
+}
+body{
+    background-color: #C0C0C0;
 }
