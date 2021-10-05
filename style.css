@@ -68,6 +68,19 @@ body {
   cursor: pointer;
 }
 
+img.img-info:active {
+  animation: my-animate .5s;
+  transform: .3s;
+}
+
+@keyframes my-animate {
+  from {
+    witdth: 250px;
+  }
+  to{ witdth: 200px; }
+}
+
+
 @media (orientation: landscape) 
 {
   body {
