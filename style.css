@@ -71,9 +71,9 @@ body {
   cursor: pointer;
 }
 
-img.img-info:active {
+.my-animte:active {
   transform: translateY(-30px);
-  transition-duration: 0.3s;
+  transition-duration: 1s;
 }
 
 @media (orientation: landscape) {
