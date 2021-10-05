@@ -3,28 +3,28 @@
   background-attachment: fixed;
   height: 100%;
   width: 60%;
-  background-color: #93B874;
+  background-color: #93b874;
 }
 .box {
-padding: 20px;
-margin: 10px;
-width: 560px;
+  padding: 20px;
+  margin: 10px;
+  width: 560px;
 }
 #container .box {
-float: left;
-padding-bottom: 20px;
+  float: left;
+  padding-bottom: 20px;
 }
-body{
-  background-color: #C0C0C0;
+body {
+  background-color: #c0c0c0;
 }
-.img::right-boobs{
+.img::right-boobs {
   position: relative;
   left: 10px;
   top: -10px;
   cursor: pointer;
 }
 
-h1::before {  
+h1::before {
   transform: scaleX(0);
   transform-origin: bottom right;
 }
@@ -38,11 +38,14 @@ h1::before {
   content: " ";
   display: block;
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   inset: 0 0 0 0;
   background: hsl(200 100% 80%);
   z-index: -1;
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
 }
 
 h1 {
@@ -64,25 +67,16 @@ body {
   place-content: center;
   font-family: system-ui, sans-serif;
 }
-.img-info{
+.img-info {
   cursor: pointer;
 }
 
 img.img-info:active {
-  animation: my-animate .5s;
-  transform: .3s;
+  transform: translateY(-30px);
+  transition-duration: 0.3s;
 }
 
-@keyframes my-animate {
-  from {
-    witdth: 250px;
-  }
-  to{ witdth: 200px; }
-}
-
-
-@media (orientation: landscape) 
-{
+@media (orientation: landscape) {
   body {
     grid-auto-flow: column;
   }
